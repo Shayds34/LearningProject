@@ -45,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="fill"
-                android:text="Réponse A"
+                android:text="La réponse A"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
