@@ -49,13 +49,13 @@ class FirstFragment : Fragment() {
         }
 
         // Observe chaque changement de tokensList
-        viewModel.tokensList.observe(viewLifecycleOwner) { list ->
-            list.map { token ->
+        //viewModel.tokensList.observe(viewLifecycleOwner) { list ->
+            //list.map { account ->
 
                 // Simple log pour afficher la réponse dans Logcat
-                Log.d("Tokens", "${token.address} - ${token.balance}")
-            }
-        }
+                //Log.d("Accounts", "${accounts.address} - ${accounts.value}")
+            //}
+        //}
     }
 
     override fun onDestroyView() {
