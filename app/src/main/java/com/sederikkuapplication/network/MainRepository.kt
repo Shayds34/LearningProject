@@ -7,7 +7,7 @@ class MainRepository constructor(
     //suspend fun getTokens(token: String) = service.getTokens(token)
 
     //Obtient la liste des comptes qui possèdent ce jeton
-    suspend fun getHolders(identifier: String) = service.getHolders(identifier)
+    suspend fun getHolders(identifier: String, size: Int) = service.getHolders(identifier, size.toString())
 
     // Obtient la liste des transactions ayant intéragit avec le SM de stacking
     suspend fun  getStackers(identifier: String) = service.getStackers(identifier)

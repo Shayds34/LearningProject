@@ -5,7 +5,7 @@ import com.sederikkuapplication.network.apiElrond.TokenWithBalance
 data class ProteoAccount (
     val address: String,
     //val username: String,
-    val proteoToken: TokenWithBalance,
+    val proteoBalance: String,
     //var sProteo: TokenWithBalance,
     //var egldBalance: Int,
     //var usdcBalance: TokenWithBalance,
