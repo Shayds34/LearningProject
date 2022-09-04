@@ -8,7 +8,7 @@ class ProteoTokensApiResponseModel(
     val price: Number?,
     val marketcap: Number?,
     val supply: String?,
-    val circulatingSupply: String,
+    val circulatingSupply: String?,
     val balance: String,
     val valueUsd: String?
 )

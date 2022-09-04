@@ -6,6 +6,8 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
+import com.sederikkuapplication.compose.views.Greeting
+import com.google.accompanist.appcompattheme.AppCompatTheme
 import com.sederikkuapplication.databinding.ActivityProteoMainBinding
 import com.sederikkuapplication.proteo.fragments.ProteoMainUiModel
 import com.sederikkuapplication.proteo.viewmodel.ProteoMainViewModel
@@ -30,7 +32,12 @@ class ProteoMainActivity : AppCompatActivity() {
 
         _binding = ActivityProteoMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        supportActionBar?.hide()
+
+        binding.greeting.setContent {
+            AppCompatTheme {
+                Greeting(name = "Shayds")
+            }
+        }
 
         binding.btnUnstake.setOnClickListener {
             val intent = Intent(this, ProteoUnstakingActivity::class.java)

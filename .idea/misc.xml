@@ -3,25 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout-v21/activity_proteo_main.xml" value="0.26403985507246375" />
         <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/activity_main.xml" value="0.2770448548812665" />
         <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/activity_proteo_account.xml" value="0.25" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/activity_proteo_elite_ranking.xml" value="0.2971014492753623" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/activity_proteo_main.xml" value="0.33" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/activity_proteo_unstaking.xml" value="0.26902173913043476" />
         <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/content_main.xml" value="0.3138586956521739" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/content_unstaking.xml" value="0.26902173913043476" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/elite_ranking_item.xml" value="0.275" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/fragment_first.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/fragment_second.xml" value="0.2776268115942029" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/fragment_unstaking.xml" value="0.1707193515704154" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/item_elite_ranking.xml" value="0.33" />
-        <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/item_unstaking.xml" value="0.26902173913043476" />
         <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/layout/list_item.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/LearningProject/app/src/main/res/menu/menu_main.xml" value="0.35104166666666664" />
         <entry key="..\:/Users/shayd/AndroidStudioProjects/LearningProject2/app/src/main/res/layout-v21/fragment_first.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/shayd/AndroidStudioProjects/LearningProject2/app/src/main/res/layout/activity_main.xml" value="0.17572463768115942" />
         <entry key="..\:/Users/shayd/AndroidStudioProjects/LearningProject2/app/src/main/res/layout/activity_proteo_account.xml" value="0.22" />
+        <entry key="..\:/Users/shayd/AndroidStudioProjects/LearningProject2/app/src/main/res/layout/activity_proteo_main.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/shayd/AndroidStudioProjects/LearningProject2/app/src/main/res/layout/fragment_first.xml" value="0.33" />
         <entry key="..\:/Users/shayd/AndroidStudioProjects/LearningProject2/app/src/main/res/layout/list_item.xml" value="0.36666666666666664" />
       </map>

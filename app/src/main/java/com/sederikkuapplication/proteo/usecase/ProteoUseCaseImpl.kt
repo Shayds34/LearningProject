@@ -16,19 +16,17 @@ class ProteoUseCaseImpl @Inject constructor(
 
     override suspend fun getAccountDetails(
         address: String
-    ) =
-        withContext(dispatcher) {
-            mapper.mapRepositoryToUseCase(
-                repository.getAccountDetails(address)
-            )
-        }
+    ) = withContext(dispatcher) {
+        mapper.mapRepositoryToUseCase(
+            repository.getAccountDetails(address)
+        )
+    }
 
-    override suspend fun getNetworkStats() =
-        withContext(dispatcher) {
-            mapper.mapRepositoryToUseCase(
-                repository.getNetworkStats()
-            )
-        }
+    override suspend fun getNetworkStats() = withContext(dispatcher) {
+        mapper.mapRepositoryToUseCase(
+            repository.getNetworkStats()
+        )
+    }
 
     override suspend fun getAccountTransactions(
         address: String,
@@ -38,33 +36,31 @@ class ProteoUseCaseImpl @Inject constructor(
         status: String,
         order: String?,
         withOperations: String
-    ) =
-        withContext(dispatcher) {
-            mapper.mapRepositoryToUseCase(
-                repository.getAccountTransactions(
-                    address = address,
-                    from = from,
-                    size = size,
-                    receiver = receiver,
-                    status = status,
-                    order = order,
-                    withOperations = withOperations
-                )
+    ) = withContext(dispatcher) {
+        mapper.mapRepositoryToUseCase(
+            repository.getAccountTransactions(
+                address = address,
+                from = from,
+                size = size,
+                receiver = receiver,
+                status = status,
+                order = order,
+                withOperations = withOperations
             )
-        }
+        )
+    }
 
     override suspend fun getAccountTokens(
         address: String,
         size: String
-    ) =
-        withContext(dispatcher) {
-            mapper.mapRepositoryToUseCase(
-                repository.getAccountTokens(
-                    address = address,
-                    size = size
-                )
+    ) = withContext(dispatcher) {
+        mapper.mapRepositoryToUseCase(
+            repository.getAccountTokens(
+                address = address,
+                size = size
             )
-        }
+        )
+    }
 
     override suspend fun getAccountTransfers(
         address: String,
@@ -74,28 +70,26 @@ class ProteoUseCaseImpl @Inject constructor(
         receiverTwo: String,
         status: String,
         order: String?
-    ) =
-        withContext(dispatcher) {
-            mapper.mapRepositoryToUseCase(
-                repository.getAccountTransfers(
-                    address = address,
-                    from = from,
-                    size = size,
-                    receiverOne = receiverOne,
-                    receiverTwo = receiverTwo,
-                    status = status,
-                    order = order
-                )
+    ) = withContext(dispatcher) {
+        mapper.mapRepositoryToUseCase(
+            repository.getAccountTransfers(
+                address = address,
+                from = from,
+                size = size,
+                receiverOne = receiverOne,
+                receiverTwo = receiverTwo,
+                status = status,
+                order = order
             )
-        }
+        )
+    }
 
     override suspend fun getTokenDetailed(
         token: String
-    ) =
-        withContext(dispatcher) {
-            mapper.mapRepositoryToUseCase(
-                repository.getTokenDetailed(token)
-            )
-        }
+    ) = withContext(dispatcher) {
+        mapper.mapRepositoryToUseCase(
+            repository.getTokenDetailed(token)
+        )
+    }
 
 }
