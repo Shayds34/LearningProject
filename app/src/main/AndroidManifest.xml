@@ -15,7 +15,7 @@
         android:theme="@style/Theme.LearningProject"
         tools:ignore="Instantiatable">
         <activity
-            android:name=".proteo.ProteoMainActivity"
+            android:name="com.sederikkuapplication.projects.proteo.ProteoMainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.LearningProject.NoActionBar"
@@ -26,9 +26,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".proteo.ProteoUnstakingActivity" />
-        <activity android:name=".proteo.ProteoEliteRankingActivity" />
-        <activity android:name=".proteo.ProteoAccountActivity" />
+        <activity android:name="com.sederikkuapplication.projects.proteo.ProteoUnstakingActivity" />
+        <activity android:name="com.sederikkuapplication.projects.proteo.ProteoEliteRankingActivity" />
+        <activity android:name="com.sederikkuapplication.projects.proteo.ProteoAccountActivity" />
     </application>
 
 </manifest>
