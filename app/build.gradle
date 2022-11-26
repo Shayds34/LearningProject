@@ -50,6 +50,8 @@ dependencies {
 
     // Dagger Hilt dependencies injection
     implementation "com.google.dagger:hilt-android:2.43.2"
+    implementation "androidx.hilt:hilt-navigation-compose:1.0.0"
+    implementation "androidx.hilt:hilt-navigation-fragment:1.0.0"
     kapt "com.google.dagger:hilt-android-compiler:2.43.2"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -84,10 +86,10 @@ dependencies {
     // Foundation (Border, Background, Box, Image, Scroll, shapes, animations, etc.)
     implementation("androidx.compose.foundation:foundation:1.2.1")
     // Material Design
-    implementation("androidx.compose.material:material:1.2.1")
+    //implementation("androidx.compose.material:material:1.2.1")
     // Material design icons
-    implementation("androidx.compose.material:material-icons-core:1.2.1")
-    implementation("androidx.compose.material:material-icons-extended:1.2.1")
+    //implementation("androidx.compose.material:material-icons-core:1.2.1")
+    //implementation("androidx.compose.material:material-icons-extended:1.2.1")
     // Integration with observables
     implementation("androidx.compose.runtime:runtime-livedata:1.2.1")
     implementation("androidx.compose.runtime:runtime-rxjava2:1.2.1")
@@ -101,6 +103,15 @@ dependencies {
 
     // Jetpack Compose UI Tests
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.2.1")
+
+    // Material3
+    implementation "androidx.compose.material3:material3:1.0.0-beta02"
+    implementation "androidx.compose.material3:material3-window-size-class:1.0.0-beta02"
+    implementation "com.google.accompanist:accompanist-flowlayout:0.24.8-beta"
+
+    // AsyncImage with Compose
+    implementation "io.coil-kt:coil-compose:2.2.1"
+
 }
 
 // Allow references to generated code
